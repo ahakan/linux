@@ -1,0 +1,9 @@
+[Unit]
+Description=Super simple daemon
+
+[Service]
+Type=simple
+ExecStart=/home/ahc/Desktop/cppbasics/Linux-Service/simple-daemon
+
+[Install]
+WantedBy=multi-user.target
